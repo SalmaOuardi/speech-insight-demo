@@ -1,0 +1,17 @@
+# Data
+data/
+*.wav
+*.mp3
+*.flac
+*.jsonl
+
+# System / IDE
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+*.log
+
+# Models / cache
+models/
+whisper_cache/

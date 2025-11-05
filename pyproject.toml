@@ -1,0 +1,23 @@
+[project]
+name = "speech-insight-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bark>=0.1.5",
+    "fastapi>=0.121.0",
+    "faster-whisper>=1.2.1",
+    "gtts>=2.5.4",
+    "jupyter>=1.1.1",
+    "librosa>=0.11.0",
+    "openai>=2.7.1",
+    "openai-whisper>=20250625",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.2.1",
+    "speechbrain>=1.0.3",
+    "tiktoken>=0.12.0",
+    "torch>=2.9.0",
+    "torchaudio>=2.9.0",
+    "uvicorn>=0.38.0",
+]
